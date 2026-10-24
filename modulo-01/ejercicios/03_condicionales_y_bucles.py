@@ -16,3 +16,4 @@ for indice, comando in enumerate(comandos, start=1):
 while completados > 0:
     print("Ejercicio completado.")
     completados -= 1
+
