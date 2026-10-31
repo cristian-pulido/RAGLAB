@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Completa el formulario para crear una clave</title>
+  <desc id="desc">Formulario ilustrativo con nombre RAGLAB, vencimiento y un límite de gasto diario opcional.</desc>
+  <rect width="1200" height="700" rx="24" fill="#080c0d"/>
+  <rect x="290" y="32" width="620" height="636" rx="20" fill="#0b1011" stroke="#30393a" stroke-width="2"/>
+  <text x="340" y="96" fill="#eef2f2" font-family="Arial,sans-serif" font-size="25" font-weight="700">Crear API key</text>
+  <text x="340" y="146" fill="#aeb8b8" font-family="Arial,sans-serif" font-size="17" font-weight="700">Name</text>
+  <rect x="340" y="163" width="520" height="58" rx="10" fill="#171d1e" stroke="#30393a"/>
+  <text x="362" y="200" fill="#f2f4f4" font-family="Arial,sans-serif" font-size="20">RAGLAB</text>
+  <text x="340" y="266" fill="#aeb8b8" font-family="Arial,sans-serif" font-size="17" font-weight="700">Expiration</text>
+  <rect x="340" y="283" width="520" height="58" rx="10" fill="#171d1e" stroke="#30393a"/>
+  <text x="362" y="320" fill="#f2f4f4" font-family="Arial,sans-serif" font-size="20">180 days　⌄</text>
+  <rect x="340" y="369" width="520" height="198" rx="14" fill="#0d1213" stroke="#30393a"/>
+  <text x="364" y="410" fill="#d9e0e0" font-family="Arial,sans-serif" font-size="18" font-weight="700">Límite de gasto (opcional)</text>
+  <text x="364" y="449" fill="#aeb8b8" font-family="Arial,sans-serif" font-size="16">Puedes fijar un tope y su periodo de reinicio.</text>
+  <rect x="364" y="469" width="470" height="55" rx="10" fill="#171d1e" stroke="#30393a"/>
+  <text x="386" y="504" fill="#f2f4f4" font-family="Arial,sans-serif" font-size="19">Ejemplo de la captura: $5 por día</text>
+  <text x="340" y="604" fill="#97a1a2" font-family="Arial,sans-serif" font-size="16">Elige el límite que quieras usar para esta clave.</text>
+  <rect x="744" y="589" width="116" height="52" rx="12" fill="#d6ff00"/>
+  <text x="802" y="623" text-anchor="middle" fill="#111719" font-family="Arial,sans-serif" font-size="19" font-weight="700">Create</text>
+</svg>

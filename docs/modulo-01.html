@@ -26,6 +26,7 @@
         <nav class="course-top-nav" aria-label="Navegaci&#243;n principal">
           <a href="./index.html">Bienvenida</a>
           <a href="./modulo-01.html" aria-current="page">M&#243;dulo 1</a>
+          <a href="./modulo-etica.html">IA responsable</a>
         </nav>
       </div>
     </header>
@@ -54,7 +55,11 @@
             <a href="#pycharm" role="tab" aria-selected="false" aria-controls="pycharm" tabindex="-1"><span class="nav-number">04</span>PyCharm y proyecto</a>
             <a href="#python" role="tab" aria-selected="false" aria-controls="python" tabindex="-1"><span class="nav-number">05</span>Python básico</a>
             <a href="#practica" role="tab" aria-selected="false" aria-controls="practica" tabindex="-1"><span class="nav-number">06</span>Práctica integradora</a>
-            <a href="#kiro" role="tab" aria-selected="false" aria-controls="kiro" tabindex="-1"><span class="nav-number">07</span>Programar con Kiro</a>
+            <a href="#openrouter" role="tab" aria-selected="false" aria-controls="openrouter" tabindex="-1"><span class="nav-number">07</span>OpenRouter y API de modelos</a>
+            <a href="#kiro" role="tab" aria-selected="false" aria-controls="kiro" tabindex="-1"><span class="nav-number">08</span>Kiro, agente de IA</a>
+            <a href="#ai-options" role="tab" aria-selected="false" aria-controls="ai-options" tabindex="-1"><span class="nav-number">09</span>Agentes y modelos de IA</a>
+            <a href="#kiro-practice" role="tab" aria-selected="false" aria-controls="kiro-practice" tabindex="-1"><span class="nav-number">10</span>Programar con agentes de IA</a>
+            <a href="#proyecto-final" role="tab" aria-selected="false" aria-controls="proyecto-final" tabindex="-1"><span class="nav-number">11</span>Proyecto final: datos y tablero</a>
           </div>
           <div class="nav-group" role="group" aria-label="Cierre y consulta">
             <p class="nav-group-title">Cierre y consulta</p>
@@ -208,8 +213,10 @@
           <h3>Del entorno listo a programar con apoyo de un agente</h3>
           <p class="agenda-intro">
             En la primera sesi&oacute;n preparas tus herramientas, configuras el proyecto y ejecutas
-            tus primeros ejercicios de Python. En la segunda aplicas lo aprendido con apoyo de un agente
-            y guardas un cambio revisado en GitHub.
+            tus primeros ejercicios de Python. En las primeras dos horas de la segunda haces una
+            llamada breve a un modelo con OpenRouter, instalas y exploras agentes, practicas con un
+            cambio de c&oacute;digo y lo compartes en GitHub. Las dos
+            horas finales corresponden al paso 11: crear y publicar un tablero de datos.
           </p>
           <div class="agenda-grid">
             <article class="agenda-card agenda-card--setup">
@@ -242,14 +249,25 @@
                 </div>
               </header>
               <ol class="agenda-steps">
-                <li><span>01</span><div><strong>Plantea una mejora con Kiro</strong><p>Describe una necesidad concreta del proyecto y pide un cambio acotado.</p></div></li>
-                <li><span>02</span><div><strong>Revisa el diff</strong><p>Comprueba qu&eacute; archivos cambiaron y deja solo lo que quieras guardar.</p></div></li>
-                <li><span>03</span><div><strong>Ejecuta y valida</strong><p>Corre el programa desde PyCharm o la terminal y verifica el resultado.</p></div></li>
-                <li><span>04</span><div><strong>Crea un commit</strong><p>Guarda una versi&oacute;n del cambio desde el panel Commit o con Git.</p></div></li>
-                <li><span>05</span><div><strong>Sube el cambio a GitHub</strong><p>Env&iacute;a el commit de la rama <code>DEV</code> con Push.</p></div></li>
+                <li><span>01</span><div><strong>Prueba una llamada con OpenRouter</strong><p>Ejecuta el ejemplo de Python como preparaci&oacute;n para usar APIs de modelos m&aacute;s adelante.</p></div></li>
+                <li><span>02</span><div><strong>Explora agentes y modelos</strong><p>Elige Kiro u otra opci&oacute;n disponible en AI Chat.</p></div></li>
+                <li><span>03</span><div><strong>Plantea una mejora con Kiro</strong><p>Describe una necesidad concreta del proyecto y pide un cambio acotado.</p></div></li>
+                <li><span>04</span><div><strong>Revisa el diff</strong><p>Comprueba qu&eacute; archivos cambiaron y deja solo lo que quieras guardar.</p></div></li>
+                <li><span>05</span><div><strong>Ejecuta y valida</strong><p>Corre el programa desde PyCharm o la terminal y verifica el resultado.</p></div></li>
+                <li><span>06</span><div><strong>Guarda un commit</strong><p>Hazlo desde PyCharm o p&iacute;dele al agente que lo prepare despu&eacute;s de revisar los archivos.</p></div></li>
+                <li><span>07</span><div><strong>Sube el cambio a GitHub</strong><p>Env&iacute;a el commit de la rama <code>DEV</code> con Push.</p></div></li>
               </ol>
               <div class="agenda-outcome"><span>Al cierre</span><strong>Un cambio revisado, validado y compartido en GitHub</strong></div>
             </article>
+          </div>
+          <div class="agenda-capstone" aria-label="Distribuci&oacute;n de las dos horas finales">
+            <div class="agenda-capstone-heading"><span class="timeline-label">Sesi&oacute;n 2 &middot; &uacute;ltimas 2 horas</span><strong>Paso 11: de los datos a un tablero publicado</strong></div>
+            <ol>
+              <li><span>15 min</span><strong>Prepara las herramientas y elige un agente</strong></li>
+              <li><span>30 min</span><strong>Construye el ejemplo de COVID-19 con el grupo</strong></li>
+              <li><span>60 min</span><strong>Crea y publica tu proyecto individual</strong></li>
+              <li><span>15 min</span><strong>Muestra tu enlace y un hallazgo</strong></li>
+            </ol>
           </div>
         </section>
 
@@ -778,15 +796,89 @@ pip list</code></pre>
           </div>
         </section>
 
+        <section id="openrouter" class="panel openrouter-panel">
+          <p class="section-kicker">Paso 7 &middot; OpenRouter y API de modelos</p>
+          <h3>Prueba una API de modelos que usaremos m&aacute;s adelante</h3>
+          <p class="openrouter-intro"><strong>OpenRouter es una pasarela (gateway):</strong> ofrece una API compatible con OpenAI para enviar solicitudes a modelos de distintos proveedores desde una misma conexi&oacute;n. La clave permite autenticar la solicitud y t&uacute; eliges el modelo.</p>
+          <p class="openrouter-access-link"><a href="https://openrouter.ai/" target="_blank" rel="noreferrer">Abrir OpenRouter</a> <span>Desde all&iacute; puedes crear una cuenta y entrar a <strong>Workspace &rarr; API keys</strong>.</span></p>
+          <div class="openrouter-purpose">
+            <div><span class="timeline-label">En este m&oacute;dulo</span><strong>Una llamada sencilla desde Python</strong><p>Comprueba que tu programa puede enviar una pregunta a un modelo y leer su respuesta.</p></div>
+            <div><span class="timeline-label">M&aacute;s adelante</span><strong>Una conexi&oacute;n para otras pr&aacute;cticas</strong><p>Podr&aacute;s usar la API al construir aplicaciones como un RAG.</p></div>
+          </div>
+
+          <div class="openrouter-setup-heading">
+            <span class="timeline-label">Gu&iacute;a visual</span>
+            <h4>Crea una clave, c&oacute;piala y gu&aacute;rdala localmente</h4>
+            <p>Sigue estos pasos para crear una clave de API y guardarla de forma segura.</p>
+          </div>
+          <div class="openrouter-gallery">
+            <figure class="image-card openrouter-image-card">
+              <button type="button" class="course-image-zoom" data-open-course-image data-image-title="Abre API keys" aria-haspopup="dialog" aria-controls="course-image-dialog" aria-label="Ampliar guía visual: abrir API keys en OpenRouter">
+                <img src="./images/openrouter-api-keys-guide.svg" alt="En Workspace, abre API keys y pulsa New key." />
+                <span aria-hidden="true">Ampliar imagen</span>
+              </button>
+              <figcaption><strong>1. Abre API keys.</strong> En tu cuenta, entra a <strong>Workspace &rarr; API keys</strong> y pulsa <strong>New key</strong>.</figcaption>
+            </figure>
+            <figure class="image-card openrouter-image-card">
+              <button type="button" class="course-image-zoom" data-open-course-image data-image-title="Configura la clave" aria-haspopup="dialog" aria-controls="course-image-dialog" aria-label="Ampliar guía visual: configurar la nueva clave de OpenRouter">
+                <img src="./images/openrouter-new-key-guide.svg" alt="Formulario para crear una clave con nombre RAGLAB, vencimiento y límite de gasto opcional." />
+                <span aria-hidden="true">Ampliar imagen</span>
+              </button>
+              <figcaption><strong>2. Configura la clave.</strong> Puedes ponerle <code>RAGLAB</code>, elegir su vencimiento y fijar un l&iacute;mite de gasto. Los $5 diarios de la captura son solo un ejemplo de tope, no una tarifa ni una cuota gratuita.</figcaption>
+            </figure>
+            <figure class="image-card openrouter-image-card">
+              <button type="button" class="course-image-zoom" data-open-course-image data-image-title="Copia la clave ahora" aria-haspopup="dialog" aria-controls="course-image-dialog" aria-label="Ampliar guía visual: copiar y guardar la clave de OpenRouter">
+                <img src="./images/openrouter-copy-key-guide.svg" alt="OpenRouter muestra la clave completa una sola vez y pide guardarla de forma segura." />
+                <span aria-hidden="true">Ampliar imagen</span>
+              </button>
+              <figcaption><strong>3. C&oacute;piala ahora.</strong> OpenRouter muestra la clave completa una sola vez. Gu&aacute;rdala en un lugar seguro; no la incluyas en capturas, mensajes p&uacute;blicos ni en el repositorio.</figcaption>
+            </figure>
+            <article class="image-card openrouter-env-instructions">
+              <h4><span>4</span> Guarda la clave en .env</h4>
+              <ol>
+                <li>En PyCharm, haz clic derecho en la carpeta ra&iacute;z del proyecto (donde est&aacute; <code>RAGLAB.yml</code>) y crea un archivo llamado exactamente <code>.env</code>. Si ya existe, &aacute;brelo.</li>
+                <li>Agrega esta l&iacute;nea y reemplaza el texto de ejemplo por la clave completa que copiaste:</li>
+              </ol>
+              <div class="command-block openrouter-env-code" data-copy-scope>
+                <div class="command-head"><h5>L&iacute;nea para .env</h5><button class="copy-button" data-copy>Copiar</button></div>
+                <pre><code>OPENAI_API_KEY=sk-or-v1-pega_aqui_tu_clave</code></pre>
+              </div>
+              <ol start="3">
+                <li>Guarda el archivo. No agregues comillas ni espacios alrededor de <code>=</code>.</li>
+              </ol>
+            </article>
+          </div>
+
+          <div class="openrouter-env-note">
+            <strong>Protege tu clave.</strong>
+            <p>El ejemplo lee <code>OPENAI_API_KEY</code>; el valor es tu clave de OpenRouter. Este proyecto ya excluye <code>.env</code> mediante <code>.gitignore</code>. No lo agregues, confirmes ni subas al repositorio.</p>
+          </div>
+
+          <div class="openrouter-run-guide">
+            <div>
+              <span class="timeline-label">Ejemplo ejecutable</span>
+              <h4>Env&iacute;a una pregunta corta desde Python</h4>
+              <p>El archivo <code>modulo-01/ejercicios/05_openrouter_prueba.py</code> carga la clave desde <code>.env</code> y hace una llamada corta con las bibliotecas del entorno <code>RAGLAB</code>. Ejecuta el comando desde la carpeta ra&iacute;z. El modelo aparece como gratuito al preparar esta gu&iacute;a; los modelos y sus l&iacute;mites pueden cambiar.</p>
+            </div>
+            <div class="command-block openrouter-run-command" data-copy-scope>
+              <div class="command-head"><h4>PowerShell o Terminal</h4><button class="copy-button" data-copy>Copiar</button></div>
+              <pre><code>conda activate RAGLAB
+python modulo-01/ejercicios/05_openrouter_prueba.py</code></pre>
+            </div>
+          </div>
+          <p class="hint openrouter-free-note"><strong>Uso gratuito:</strong> el sufijo <code>:free</code> identifica la variante gratuita del modelo del ejemplo. Puede tener l&iacute;mites, saturarse o dejar de estar disponible; si pasa, revisa los modelos gratuitos vigentes en <a href="https://openrouter.ai/collections/free-models" target="_blank" rel="noreferrer">OpenRouter</a> y cambia el identificador en el script. La ficha de este endpoint gratuito de NVIDIA indica que las solicitudes pueden registrarse para seguridad y mejora del producto: no env&iacute;es datos personales, c&oacute;digo privado ni informaci&oacute;n confidencial.</p>
+          <p class="hint openrouter-doc-link">M&aacute;s informaci&oacute;n: <a href="https://openrouter.ai/docs/quickstart" target="_blank" rel="noreferrer">gu&iacute;a oficial de inicio r&aacute;pido</a> y <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noreferrer">ficha del modelo de ejemplo</a>.</p>
+        </section>
+
         <section id="kiro" class="panel kiro-panel">
-          <p class="section-kicker">Paso 7 &middot; Programaci&oacute;n asistida por agentes</p>
-          <h3>Kiro en PyCharm: del requerimiento al c&oacute;digo que podemos validar</h3>
+          <p class="section-kicker">Paso 8 &middot; Kiro, agente de IA</p>
+          <h3>Kiro en PyCharm: instala y configura el agente de IA</h3>
 
           <div class="kiro-intro">
             <div class="kiro-intro-copy">
               <span class="kiro-intro-label">&iquest;Qu&eacute; es Kiro?</span>
               <p><strong>Kiro es un agente de programaci&oacute;n con inteligencia artificial.</strong> Puede leer el contexto del proyecto, explicar c&oacute;digo, proponer y editar archivos, y ejecutar comandos. Usaremos Kiro CLI junto con el plugin Kiro with GUI para trabajar desde un panel dentro de PyCharm.</p>
-              <p>En este ejercicio te ayudar&aacute; a convertir una necesidad en un cambio peque&ntilde;o y comprobable. T&uacute; decides qu&eacute; pedir, revisas el plan y el diff, y ejecutas el programa para validar el resultado.</p>
+              <p>En esta secci&oacute;n instalar&aacute;s Kiro CLI y su plugin para abrir el agente desde PyCharm. Al terminar, el panel quedar&aacute; listo para trabajar en el proyecto.</p>
             </div>
             <div class="kiro-flow" aria-label="Flujo de trabajo con Kiro">
               <div><span>01</span><strong>Describe</strong><small>Explica qu&eacute; necesitas</small></div>
@@ -818,17 +910,38 @@ pip list</code></pre>
 
           <div class="kiro-setup-heading"><span class="kiro-intro-label">Instalaci&oacute;n y configuraci&oacute;n</span><h4>Prepara el CLI y agrega Kiro with GUI a PyCharm</h4><p>Sigue este orden: instala y autentica Kiro CLI, instala el plugin y comprueba que el panel de Kiro aparezca en el IDE.</p></div>
           <div class="timeline kiro-timeline">
-            <article class="kiro-stage-card">
-              <header><span class="kiro-stage-number">01</span><div><span class="timeline-label">Preparaci&oacute;n</span><h4>Instala y autentica Kiro CLI</h4></div></header>
+            <article class="kiro-stage-card kiro-stage-card--wide">
+              <header><span class="kiro-stage-number">01</span><div><span class="timeline-label">Instalaci&oacute;n</span><h4>Instala Kiro CLI en Windows</h4></div></header>
               <ol class="steps">
-                <li>Abre la <a href="https://kiro.dev/docs/getting-started/installation/" target="_blank" rel="noreferrer">p&aacute;gina oficial de instalaci&oacute;n</a>, cambia de la pesta&ntilde;a <strong>IDE</strong> a <strong>CLI</strong> y descarga Kiro CLI para tu sistema. No instales Kiro IDE.</li>
-                <li>En Windows, instala la versi&oacute;n para Windows 11. Abre PowerShell y comprueba el CLI con <code>kiro-cli --version</code>.</li>
-                <li>Inicia sesi&oacute;n con <code>kiro-cli login</code> y completa la autenticaci&oacute;n en el navegador.</li>
-                <li>Confirma que todo est&eacute; listo con <code>kiro-cli doctor</code>.</li>
+                <li>Abre la <a href="https://kiro.dev/docs/getting-started/installation/" target="_blank" rel="noreferrer">p&aacute;gina oficial de instalaci&oacute;n</a>, cambia de la pesta&ntilde;a <strong>IDE</strong> a <strong>CLI</strong> y descarga Kiro CLI para Windows 11. No instales Kiro IDE.</li>
+                <li>Ejecuta el instalador en PowerShell y espera el mensaje <strong>Installed successfully</strong>. Al terminar, abre una ventana nueva de PowerShell.</li>
               </ol>
+              <figure class="image-card kiro-install-proof">
+                <img src="./images/kiro-cli-install-success.svg" alt="PowerShell confirma que Kiro CLI 2.36.0 se instal&oacute; correctamente." />
+                <figcaption>Al finalizar, PowerShell debe indicar <strong>Installed successfully</strong> y mostrar d&oacute;nde qued&oacute; instalado Kiro CLI.</figcaption>
+              </figure>
             </article>
-            <article class="kiro-stage-card">
-              <header><span class="kiro-stage-number">02</span><div><span class="timeline-label">Plugin de PyCharm</span><h4>Instala Kiro with GUI</h4></div></header>
+            <article class="kiro-stage-card kiro-stage-card--wide">
+              <header><span class="kiro-stage-number">02</span><div><span class="timeline-label">Inicio y validaci&oacute;n</span><h4>Inicia sesi&oacute;n y comprueba la instalaci&oacute;n</h4></div></header>
+              <p>Copia y ejecuta estos comandos en PowerShell en el orden indicado:</p>
+              <div class="kiro-validation-commands">
+                <div class="kiro-validation-command" data-copy-scope>
+                  <div><strong><span>01</span>Comprueba la versi&oacute;n</strong><button class="copy-button" data-copy>Copiar</button></div>
+                  <pre><code>kiro-cli --version</code></pre>
+                </div>
+                <div class="kiro-validation-command" data-copy-scope>
+                  <div><strong><span>02</span>Ejecuta el diagn&oacute;stico</strong><button class="copy-button" data-copy>Copiar</button></div>
+                  <pre><code>kiro-cli diagnostic</code></pre>
+                </div>
+                <div class="kiro-validation-command" data-copy-scope>
+                  <div><strong><span>03</span>Inicia sesi&oacute;n</strong><button class="copy-button" data-copy>Copiar</button></div>
+                  <pre><code>kiro-cli login</code></pre>
+                </div>
+              </div>
+              <p class="kiro-validation-note">Completa la autenticaci&oacute;n de <code>kiro-cli login</code> en el navegador. El diagn&oacute;stico completo requiere que Kiro CLI est&eacute; abierto; si no lo est&aacute;, inicia la aplicaci&oacute;n con <code>kiro-cli launch</code> y vuelve a ejecutar el segundo comando.</p>
+            </article>
+            <article class="kiro-stage-card kiro-stage-card--wide">
+              <header><span class="kiro-stage-number">03</span><div><span class="timeline-label">Plugin de PyCharm</span><h4>Instala Kiro with GUI</h4></div></header>
               <p>En PyCharm, abre <strong>File → Settings → Plugins → Marketplace</strong>, busca <strong>Kiro with GUI</strong> e instala el plugin. Si aparece el aviso de plugins de terceros, selecciona <strong>Accept</strong>. Reinicia PyCharm si lo solicita.</p>
             </article>
           </div>
@@ -858,38 +971,243 @@ pip list</code></pre>
 
           <div class="timeline kiro-timeline kiro-config-timeline">
             <article class="kiro-stage-card">
-              <header><span class="kiro-stage-number">03</span><div><span class="timeline-label">Configuraci&oacute;n</span><h4>Verifica el CLI desde el panel de Kiro</h4></div></header>
+              <header><span class="kiro-stage-number">04</span><div><span class="timeline-label">Configuraci&oacute;n</span><h4>Verifica el CLI desde el panel de Kiro</h4></div></header>
               <ol class="steps">
                 <li>Abre Kiro desde el icono morado que aparece en la barra lateral de PyCharm.</li>
-                <li>En el panel de Kiro, abre <strong>Manage → Settings</strong> (o <strong>Settings → Tools → Kiro</strong>) y verifica el campo del comando de Kiro.</li>
-                <li>Si <code>kiro-cli</code> no se detecta, reempl&aacute;zalo por la ruta completa. En Windows puedes encontrarla en PowerShell con <code>Get-Command kiro-cli | Select-Object -ExpandProperty Source</code>.</li>
-                <li>Comprueba en <strong>Manage → Auth</strong> que la sesi&oacute;n est&eacute; iniciada. Si no, ejecuta <code>kiro-cli login</code> en PowerShell y vuelve al panel.</li>
+                <li>Abre <strong>Manage &rarr; Settings</strong> (o <strong>Settings &rarr; Tools &rarr; Kiro</strong>) y ubica el campo <strong>kiro-cli Path</strong>.</li>
+                <li>Si aparece <strong>kiro-cli not found</strong>, copia el comando que corresponde a tu sistema operativo. Pega en <strong>kiro-cli Path</strong> la ruta que te muestre la terminal.</li>
+                <li>En <strong>Manage &rarr; Auth</strong>, comprueba que la sesi&oacute;n est&eacute; iniciada. Si no, ejecuta <code>kiro-cli login</code> y vuelve al panel.</li>
               </ol>
+              <div class="kiro-config-support">
+                <figure class="image-card kiro-config-guide">
+                  <img src="./images/kiro-panel-settings-guide.svg" alt="Panel de Kiro con los controles Manage, Settings y el campo kiro-cli Path marcados con los n&uacute;meros 1, 2 y 3." />
+                  <figcaption><strong>1.</strong> Manage &nbsp; <strong>2.</strong> Settings &nbsp; <strong>3.</strong> Campo <code>kiro-cli Path</code></figcaption>
+                </figure>
+                <div class="kiro-path-commands">
+                  <p>El comando cambia seg&uacute;n el sistema y la terminal:</p>
+                  <div class="kiro-validation-command" data-copy-scope>
+                    <div><strong>Windows &middot; PowerShell</strong><button class="copy-button" data-copy>Copiar</button></div>
+                    <pre><code>Get-Command kiro-cli | Select-Object -ExpandProperty Source</code></pre>
+                  </div>
+                  <div class="kiro-validation-command" data-copy-scope>
+                    <div><strong>macOS/Linux &middot; Terminal</strong><button class="copy-button" data-copy>Copiar</button></div>
+                    <pre><code>command -v kiro-cli</code></pre>
+                  </div>
+                </div>
+              </div>
             </article>
           </div>
 
-          <div class="kiro-practice-heading"><span class="kiro-intro-label">Pr&aacute;ctica guiada</span><h4>Pide, revisa, ejecuta y valida</h4><p>Abre <code>modulo-01/ejercicios/04_funciones.py</code> y env&iacute;a este requerimiento a Kiro:</p></div>
-          <div class="command-block kiro-prompt-block">
-            <div class="command-head">
-              <h4>Requerimiento para Kiro</h4>
-              <button class="copy-button" data-copy>Copiar</button>
-            </div>
-            <pre><code>En modulo-01/ejercicios/04_funciones.py, agrega una función llamada calcular_progreso(completados, total) que retorne el porcentaje completado como un número entre 0 y 100. Si total es 0, debe retornar 0. Agrega ejemplos de uso al final del archivo. No edites otros archivos. Antes de cambiar el código, explícame el plan y espera mi aprobación. Después de implementar, dime cómo comprobar los resultados.</code></pre>
-          </div>
-          <ol class="kiro-validation-steps">
-            <li><span>01</span><div><strong>Lee el plan</strong><p>Verifica que Kiro entendi&oacute; el archivo, la f&oacute;rmula y el caso <code>total = 0</code>.</p></div></li>
-            <li><span>02</span><div><strong>Inspecciona el diff</strong><p>Ubica la funci&oacute;n, sus argumentos, el valor que retorna y el caso especial.</p></div></li>
-            <li><span>03</span><div><strong>Ejecuta y comprueba</strong><p>Verifica que 2 de 4 produzca 50 y que el caso con total 0 produzca 0.</p></div></li>
-            <li><span>04</span><div><strong>Guarda cuando lo entiendas</strong><p>Si algo falla, comparte el error con Kiro. Cuando la mejora funcione, revisa <code>git diff</code>, crea un commit y súbelo a GitHub desde la rama <code>DEV</code>.</p></div></li>
-          </ol>
-
-          <div class="kiro-responsibility"><span aria-hidden="true">&#10003;</span><p><strong>El agente propone; t&uacute; decides.</strong> Antes de guardar el cambio, aseg&uacute;rate de poder explicar qu&eacute; se modific&oacute; y c&oacute;mo comprobaste que funciona.</p></div>
           <p class="hint kiro-doc-links">
             Documentaci&oacute;n: <a href="https://kiro.dev/docs/getting-started/installation/" target="_blank" rel="noreferrer">instalar Kiro CLI</a>,
             <a href="https://plugins.jetbrains.com/plugin/30960-kiro-with-gui" target="_blank" rel="noreferrer">plugin Kiro with GUI</a>,
             <a href="https://kiro.dev/docs/models/available-models/" target="_blank" rel="noreferrer">modelos disponibles</a> y
             <a href="https://kiro.dev/pricing/" target="_blank" rel="noreferrer">planes y cr&eacute;ditos</a>.
           </p>
+        </section>
+
+        <section id="ai-options" class="panel ai-options-panel">
+          <p class="section-kicker">Paso 9 &middot; Agentes y modelos de IA</p>
+          <h3>Conecta otros agentes y modelos desde PyCharm</h3>
+          <p class="support-intro">AI Chat permite iniciar agentes integrados, conectar algunos proveedores con tu propia cuenta o clave, y conversar con modelos locales. Las opciones de acceso dependen de cada proveedor.</p>
+
+          <div class="ai-options-cards">
+            <article class="ai-options-card">
+              <span class="timeline-label">Agentes integrados</span>
+              <h4>Usa una cuenta o suscripci&oacute;n compatible</h4>
+              <ul>
+                <li><strong>Codex:</strong> puedes autorizarlo con una cuenta de ChatGPT, una clave API de OpenAI o JetBrains AI.</li>
+                <li><strong>Claude Agent:</strong> se puede activar con JetBrains AI, una clave API de Anthropic o Anthropic Console.</li>
+                <li><strong>Otros agentes:</strong> busca opciones compatibles con ACP en <strong>More Agents</strong>; cada una tiene su propio proceso de acceso.</li>
+              </ul>
+            </article>
+            <article class="ai-options-card">
+              <span class="timeline-label">Proveedores y modelos</span>
+              <h4>Conecta servicios externos o locales</h4>
+              <ul>
+                <li><strong>API de terceros:</strong> configura OpenAI, Anthropic o un endpoint compatible con OpenAI; Qwen puede usarse si el proveedor ofrece esa API.</li>
+                <li><strong>Modelos locales:</strong> conecta Ollama o LM Studio y selecciona un modelo, como Qwen, en AI Chat.</li>
+                <li>Los modelos locales se pueden usar en el chat; la documentaci&oacute;n actual indica que no est&aacute;n disponibles para agentes.</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="ai-options-workflow">
+            <div>
+              <span class="timeline-label">Flujo general</span>
+              <h4>Selecciona una opci&oacute;n e inicia su configuraci&oacute;n</h4>
+              <ol class="steps">
+                <li>Abre <strong>AI Chat</strong> en PyCharm y despliega el selector de agentes o proveedores.</li>
+                <li>Elige el agente o proveedor. Para algunos agentes, AI Chat abrir&aacute; una conversaci&oacute;n y deber&aacute;s enviar un primer mensaje para iniciar la activaci&oacute;n.</li>
+                <li>Sigue el flujo de esa opci&oacute;n: inicia sesi&oacute;n y acepta la instalaci&oacute;n del agente, o configura la API key/modelo local en <strong>Settings &rarr; Tools &rarr; AI Assistant &rarr; Providers &amp; API keys</strong>.</li>
+                <li>Cuando termine la activaci&oacute;n, inicia una conversaci&oacute;n nueva si se solicita y selecciona el agente o modelo para usarlo.</li>
+              </ol>
+            </div>
+            <div class="ai-options-gallery" aria-label="Ejemplos para seleccionar y activar agentes en AI Chat">
+              <figure class="image-card ai-options-image-card">
+                <img src="./images/jetbrains-ai-chat-options.svg" alt="Selector de AI Chat en PyCharm con JetBrains AI, Claude Agent, Codex, Junie, GitHub Copilot, agentes ACP y proveedores externos o locales." />
+                <figcaption><strong>1.</strong> JetBrains AI &nbsp; <strong>2.</strong> Agentes &nbsp; <strong>3.</strong> Proveedores externos o locales.</figcaption>
+              </figure>
+              <figure class="image-card ai-options-image-card">
+                <img src="./images/jetbrains-ai-chat-codex.svg" alt="AI Chat con Codex seleccionado y una indicaci&oacute;n para enviar el primer mensaje e iniciar la sesi&oacute;n." />
+                <figcaption><strong>1.</strong> Agente seleccionado &nbsp; <strong>2.</strong> Env&iacute;a el primer mensaje para iniciar la activaci&oacute;n cuando se solicite.</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <p class="ai-options-note"><strong>Ten en cuenta:</strong> pagar una suscripci&oacute;n a un servicio no garantiza que cualquier agente pueda usarla directamente. Revisa el m&eacute;todo de acceso que ofrece esa opci&oacute;n; en algunos casos necesitar&aacute;s JetBrains AI, una API key o una cuenta compatible.</p>
+          <p class="hint ai-options-links">M&aacute;s informaci&oacute;n: <a href="https://www.jetbrains.com/help/ai-assistant/activate-agents.html" target="_blank" rel="noreferrer">activar agentes</a>, <a href="https://www.jetbrains.com/help/ai-assistant/use-custom-models.html" target="_blank" rel="noreferrer">conectar modelos externos o locales</a> y <a href="https://www.jetbrains.com/help/ai-assistant/ai-chat.html" target="_blank" rel="noreferrer">usar AI Chat</a>.</p>
+        </section>
+
+        <section id="kiro-practice" class="panel kiro-panel">
+          <p class="section-kicker">Paso 10 &middot; Pr&aacute;ctica con agentes de IA</p>
+          <h3>Programa con agentes de IA: pide, revisa, ejecuta y valida</h3>
+          <p class="support-intro">Abre <code>modulo-01/ejercicios/04_funciones.py</code> y env&iacute;a este requerimiento al agente que elegiste:</p>
+          <div class="command-block kiro-prompt-block">
+            <div class="command-head">
+              <h4>Requerimiento para el agente</h4>
+              <button class="copy-button" data-copy>Copiar</button>
+            </div>
+            <pre><code>En modulo-01/ejercicios/04_funciones.py, agrega una funci&oacute;n llamada calcular_progreso(completados, total) que retorne el porcentaje completado como un n&uacute;mero entre 0 y 100. Si total es 0, debe retornar 0. Agrega ejemplos de uso al final del archivo. No edites otros archivos. Antes de cambiar el c&oacute;digo, expl&iacute;came el plan y espera mi aprobaci&oacute;n. Despu&eacute;s de implementar, dime c&oacute;mo comprobar los resultados.</code></pre>
+          </div>
+          <ol class="kiro-validation-steps">
+            <li><span>01</span><div><strong>Lee el plan</strong><p>Verifica que el agente entendi&oacute; el archivo, la f&oacute;rmula y el caso <code>total = 0</code>.</p></div></li>
+            <li><span>02</span><div><strong>Inspecciona el diff</strong><p>Ubica la funci&oacute;n, sus argumentos, el valor que retorna y el caso especial.</p></div></li>
+            <li><span>03</span><div><strong>Ejecuta y comprueba</strong><p>Verifica que 2 de 4 produzca 50 y que el caso con total 0 produzca 0.</p></div></li>
+            <li><span>04</span><div><strong>Guarda cuando lo entiendas</strong><p>Si algo falla, comparte el error con el agente. Cuando la mejora funcione, revisa <code>git diff</code>. Puedes pedirle que cree el commit despu&eacute;s de revisar los archivos que incluir&aacute;. Luego, sube los cambios a GitHub desde la rama <code>DEV</code>.</p></div></li>
+          </ol>
+
+          <div class="kiro-practice-heading">
+            <h4>Pide al agente que prepare el commit</h4>
+            <p>Despu&eacute;s de comprobar el resultado y revisar el diff, puedes enviarle una solicitud como esta:</p>
+          </div>
+          <div class="command-block kiro-prompt-block">
+            <div class="command-head">
+              <h4>Solicitud para crear el commit</h4>
+              <button class="copy-button" data-copy>Copiar</button>
+            </div>
+            <pre><code>Revisa git status y el diff de los cambios que acabamos de validar. No edites archivos ni incluyas cambios ajenos a este ejercicio. Mu&eacute;strame qu&eacute; archivos vas a incluir y espera mi autorizaci&oacute;n. Cuando te autorice, crea un commit con el mensaje &quot;Agrega c&aacute;lculo de progreso&quot;. No hagas push.</code></pre>
+          </div>
+
+          <div class="kiro-responsibility"><span aria-hidden="true">&#10003;</span><p><strong>El agente propone; t&uacute; decides.</strong> Antes de guardar el cambio, aseg&uacute;rate de poder explicar qu&eacute; se modific&oacute; y c&oacute;mo comprobaste que funciona.</p></div>
+        </section>
+
+        <section id="proyecto-final" class="panel final-project-panel">
+          <p class="section-kicker">Paso 11 &middot; Proyecto final</p>
+          <h3>De los datos p&uacute;blicos a un tablero publicado</h3>
+          <p class="support-intro">Trabaja con un agente de IA para explorar un conjunto de datos, responder una pregunta y compartir los resultados en una p&aacute;gina web. Primero construiremos un ejemplo entre todos; despu&eacute;s crear&aacute;s uno propio.</p>
+
+          <div class="final-project-timeline" aria-label="Din&aacute;mica de dos horas">
+            <article><span>15 min</span><strong>Prepara</strong><p>Abre PyCharm, confirma que el entorno <code>RAGLAB</code> funciona y selecciona el agente.</p></article>
+            <article><span>30 min</span><strong>Explora COVID-19</strong><p>Descarga datos filtrados, define una pregunta y construye el tablero con el grupo.</p></article>
+            <article><span>60 min</span><strong>Haz tu proyecto</strong><p>Elige un tema y datos p&uacute;blicos; crea tu an&aacute;lisis y publ&iacute;calo desde tu fork.</p></article>
+            <article><span>15 min</span><strong>Comparte</strong><p>Muestra la URL de tu p&aacute;gina y explica un hallazgo en un minuto.</p></article>
+          </div>
+
+          <div class="final-project-demo">
+            <div>
+              <span class="timeline-label">Ejemplo guiado &middot; COVID-19</span>
+              <h4>Construyamos juntos un tablero de COVID-19</h4>
+              <p>En este ejemplo vas a convertir un CSV en un tablero HTML con ayuda de un agente. Descarga los datos y env&iacute;a los prompts de abajo, en orden, dentro de la misma conversaci&oacute;n de PyCharm. Completa el departamento y el periodo que elegiste. El conjunto tiene m&aacute;s de seis millones de filas, por eso trabajaremos con un filtro.</p>
+              <ol class="steps final-project-demo-steps">
+                <li>Abre el <a href="https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia-/gt2j-8ykr/about_data" target="_blank" rel="noreferrer">conjunto de datos de COVID-19</a>, entra a la vista de datos y revisa las columnas y el periodo cubierto.</li>
+                <li>Usa <strong>Filtrar</strong> para elegir un departamento y un periodo corto. Revisa el n&uacute;mero de filas; si siguen siendo muchas, reduce el periodo.</li>
+                <li>Abre <strong>Exportar</strong> y descarga el resultado como CSV. Si hace falta, crea la carpeta <code>modulo-01/proyectos/demo-covid/datos/</code> y gu&aacute;rdalo como <code>casos_covid.csv</code>.</li>
+                <li>Usaremos esta pregunta: <em>&iquest;C&oacute;mo evolucionaron por mes los casos reportados en [departamento] durante [periodo]?</em> Reemplaza los campos entre corchetes por el filtro que descargaste.</li>
+              </ol>
+            </div>
+            <aside class="final-project-data-note"><strong>Cuida el alcance</strong><p>Analiza totales y tendencias agregadas. No publiques filas individuales del CSV en la p&aacute;gina. Anota el enlace de la fuente, el periodo analizado y las limitaciones del conjunto.</p></aside>
+          </div>
+
+          <div class="final-project-prompt-sequence">
+            <h5>Prompts listos para el ejemplo</h5>
+            <p>Env&iacute;a el primero y revisa el plan del agente. Cuando est&eacute;s de acuerdo, env&iacute;a el segundo para crear los archivos. Despu&eacute;s ejecuta el comando y usa el &uacute;ltimo prompt para revisar el resultado. Reemplaza los campos entre corchetes por los datos de tu descarga.</p>
+            <div class="command-block final-project-prompt">
+              <div class="command-head"><h4>1. Diseña el plan del script de análisis COVID</h4><button class="copy-button" data-copy>Copiar</button></div>
+              <pre><code>Quiero planear un script reproducible en Python para analizar los casos positivos de COVID-19 en Colombia. Usa el CSV que guard&eacute; en modulo-01/proyectos/demo-covid/datos/casos_covid.csv. Mi filtro es [departamento] y [periodo].
+
+Primero inspecciona la estructura del archivo: nombres de columnas, tipos de datos, cantidad de filas, valores faltantes y posibles duplicados. No muestres filas individuales ni calcules todav&iacute;a resultados agregados.
+
+El script deber&aacute; responder: &iquest;c&oacute;mo evolucion&oacute; mes a mes el n&uacute;mero de casos reportados durante el periodo seleccionado? No respondas esta pregunta con un an&aacute;lisis manual; define c&oacute;mo el c&oacute;digo Python calcular&aacute; la respuesta usando las columnas que realmente existan. Identifica las columnas de fecha y departamento, explica los filtros y pasos de limpieza, y propone dos indicadores y dos gr&aacute;ficos calculables con esos datos. No inventes columnas ni supongas que cada fila representa un caso sin comprobarlo.
+
+Incluye la fuente: https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia-/gt2j-8ykr/about_data. Resume las limitaciones que el script deber&aacute; mostrar. Por ahora no crees ni modifiques archivos ni implementes el c&oacute;digo: entr&eacute;game el plan de c&aacute;lculo y espera mi aprobaci&oacute;n. Despu&eacute;s te pedir&eacute; escribir y ejecutar el script.</code></pre>
+            </div>
+            <div class="command-block final-project-prompt">
+              <div class="command-head"><h4>2. Escribe el script Python y genera el tablero</h4><button class="copy-button" data-copy>Copiar</button></div>
+              <pre><code>Apruebo el plan. Implem&eacute;ntalo dentro de estas rutas: crea modulo-01/proyectos/demo-covid/analisis.py para analizar con pandas el archivo modulo-01/proyectos/demo-covid/datos/casos_covid.csv, y genera docs/proyectos/demo-covid/index.html con matplotlib y un gr&aacute;fico mensual m&aacute;s otro gr&aacute;fico adecuado a las columnas que encontraste. Guarda los gr&aacute;ficos en docs/proyectos/demo-covid/graficos/ y enl&aacute;zalos con rutas relativas. Muestra el departamento y periodo filtrados, dos indicadores, un hallazgo, la fuente enlazada y las limitaciones. No inventes datos, no incluyas filas individuales, no copies el CSV a docs ni modifiques otros archivos. Al terminar, dime c&oacute;mo ejecutar el an&aacute;lisis y abrir el tablero.</code></pre>
+            </div>
+            <div class="command-block final-project-run-command">
+              <div class="command-head"><h4>3. Ejecuta el an&aacute;lisis desde la ra&iacute;z del repositorio</h4><button class="copy-button" data-copy>Copiar</button></div>
+              <pre><code>python modulo-01/proyectos/demo-covid/analisis.py</code></pre>
+            </div>
+            <div class="command-block final-project-prompt">
+              <div class="command-head"><h4>4. Comprueba los datos y el tablero</h4><button class="copy-button" data-copy>Copiar</button></div>
+              <pre><code>Revisa el an&aacute;lisis y el HTML del tablero COVID. Comprueba que los c&aacute;lculos usen las columnas correctas y el filtro de [departamento] y [periodo], y que los gr&aacute;ficos reflejen los datos del CSV. Verifica que la p&aacute;gina muestre la fuente, el periodo, un hallazgo y las limitaciones, sin filas individuales. Si encuentras errores, expl&iacute;camelos y dime c&oacute;mo corregirlos.</code></pre>
+            </div>
+            <p>Por &uacute;ltimo, abre <code>docs/proyectos/demo-covid/index.html</code> en el navegador y revisa el resultado: los indicadores, los gr&aacute;ficos, la fuente y las limitaciones.</p>
+          </div>
+
+          <div class="final-project-transition"><span class="timeline-label">Despu&eacute;s de la demostraci&oacute;n</span><h4>Ahora crea tu propio tablero</h4><p>Repite el mismo recorrido con un tema que te interese. Durante la hora de trabajo, t&uacute; eliges el conjunto de datos; el agente te acompa&ntilde;a en el an&aacute;lisis y la programaci&oacute;n.</p></div>
+
+          <div class="final-project-minimum">
+            <div class="final-project-heading"><span class="timeline-label">Tu proyecto individual &middot; 60 minutos</span><h4>Elige un tema que te interese</h4><p>Dedica los primeros minutos a encontrar un CSV p&uacute;blico peque&ntilde;o y una pregunta concreta. Si el archivo es grande, f&iacute;ltralo antes de empezar. El objetivo es terminar y publicar una primera versi&oacute;n.</p></div>
+            <div class="final-project-deliverables">
+              <article><span>01</span><strong>Una pregunta</strong><p>Debe poder responderse con las columnas disponibles.</p></article>
+              <article><span>02</span><strong>Dos indicadores</strong><p>Resume medidas que ayuden a responder la pregunta.</p></article>
+              <article><span>03</span><strong>Dos gr&aacute;ficos</strong><p>Generados con pandas y matplotlib para comparar o mostrar tendencias.</p></article>
+              <article><span>04</span><strong>Un hallazgo y un l&iacute;mite</strong><p>Explica qu&eacute; encontraste y qu&eacute; no permiten concluir los datos.</p></article>
+            </div>
+          </div>
+
+          <div class="final-project-student-tips">
+            <article><strong>Escoge un conjunto manejable</strong><p>Busca un CSV descargable sin registro ni clave API. Filtra por fecha o territorio si contiene demasiadas filas.</p></article>
+            <article><strong>Haz una pregunta descriptiva</strong><p>Por ejemplo: &iquest;c&oacute;mo cambia una medida por mes o qu&eacute; categor&iacute;as tienen los valores m&aacute;s altos?</p></article>
+            <article><strong>Verifica antes de publicar</strong><p>Comprueba que los indicadores tengan sentido, cita la fuente y el periodo, y no subas datos sensibles ni el CSV original.</p></article>
+          </div>
+
+          <div class="final-project-prompts">
+            <div class="final-project-heading">
+              <span class="timeline-label">Prompts copiables</span>
+              <h4>Construye el proyecto por etapas</h4>
+              <p>Usa estos prompts en tu propio proyecto y reemplaza los campos entre corchetes con tus rutas, tema, fuente y pregunta.</p>
+            </div>
+            <div class="command-block final-project-prompt">
+              <div class="command-head"><h4>1. Inspecciona los datos y propone un plan</h4><button class="copy-button" data-copy>Copiar</button></div>
+              <pre><code>Quiero crear un tablero de an&aacute;lisis con el archivo CSV que descargu&eacute; en [ruta del archivo]. Primero inspecciona los nombres de las columnas, tipos de datos, cantidad de filas, valores faltantes y posibles duplicados. No muestres ni publiques filas individuales. Ay&uacute;dame a formular una pregunta descriptiva que se pueda responder con estos datos, dos indicadores y dos gr&aacute;ficos sencillos. Resume las limitaciones y la fuente de los datos. No edites archivos todav&iacute;a: expl&iacute;came el plan y espera mi aprobaci&oacute;n.</code></pre>
+            </div>
+            <div class="command-block final-project-prompt">
+              <div class="command-head"><h4>2. Genera el an&aacute;lisis y la p&aacute;gina HTML</h4><button class="copy-button" data-copy>Copiar</button></div>
+              <pre><code>Apruebo el plan. Implementa el an&aacute;lisis con pandas y genera los gr&aacute;ficos con matplotlib. Guarda el script en modulo-01/proyectos/[nombre]/analisis.py y el tablero est&aacute;tico en docs/proyectos/[nombre]/index.html. Guarda los gr&aacute;ficos en docs/proyectos/[nombre]/graficos/ y enl&aacute;zalos con rutas relativas desde el HTML. La p&aacute;gina debe incluir la pregunta, la fuente y el periodo, dos indicadores, dos gr&aacute;ficos, un hallazgo y las limitaciones. No incluyas filas individuales, no copies el CSV a docs ni modifiques archivos fuera de estas carpetas. Al terminar, explica c&oacute;mo ejecutar el an&aacute;lisis y revisar el resultado.</code></pre>
+            </div>
+            <div class="command-block final-project-prompt">
+              <div class="command-head"><h4>3. Comprueba el tablero</h4><button class="copy-button" data-copy>Copiar</button></div>
+              <pre><code>Revisa el script y el tablero que generaste. Comprueba que el an&aacute;lisis use la pregunta acordada, que los indicadores y gr&aacute;ficos correspondan a los datos y que el HTML abra correctamente sin servidor. Verifica que la fuente, el periodo y las limitaciones aparezcan en la p&aacute;gina, y que no se incluyan filas individuales ni el CSV. No hagas commit ni push. Dame los pasos para probarlo localmente y una lista breve de los archivos que debo revisar.</code></pre>
+            </div>
+          </div>
+
+          <div class="final-project-run">
+            <div><span class="timeline-label">Prueba local</span><h4>Genera y abre tu tablero antes de publicarlo</h4><p>Ejecuta el an&aacute;lisis desde la carpeta ra&iacute;z del repositorio. Luego abre el archivo <code>docs/proyectos/[nombre]/index.html</code> en el navegador y confirma que aparezcan los indicadores, los gr&aacute;ficos y la fuente.</p></div>
+            <div class="command-block final-project-run-command">
+              <div class="command-head"><h4>PowerShell o Terminal</h4><button class="copy-button" data-copy>Copiar</button></div>
+              <pre><code>python modulo-01/proyectos/[nombre]/analisis.py</code></pre>
+            </div>
+          </div>
+
+          <div class="final-project-publish">
+            <div>
+              <span class="timeline-label">Publica tu resultado</span>
+              <h4>Publica tu tablero propio desde el fork</h4>
+              <p>El tablero debe quedar en <code>docs/proyectos/[nombre]/index.html</code>. Conserva la p&aacute;gina principal del curso y sube solo el script, los gr&aacute;ficos y el tablero; no agregues el CSV descargado.</p>
+            </div>
+            <ol class="steps">
+              <li>Revisa los archivos con <code>git status</code> y el diff. Confirma el cambio y haz Push de la rama <code>DEV</code> a tu fork.</li>
+              <li>En GitHub, abre <strong>Settings &rarr; Pages</strong>. En <strong>Build and deployment</strong>, elige <strong>Deploy from a branch</strong>, selecciona la rama <code>DEV</code> y la carpeta <code>/docs</code>; guarda la configuraci&oacute;n.</li>
+              <li>Abre la URL que GitHub muestra en esa misma secci&oacute;n y a&ntilde;ade <code>proyectos/[nombre]/</code>. Comprueba que el tablero y sus gr&aacute;ficos carguen.</li>
+            </ol>
+          </div>
+          <p class="hint final-project-pages-link">Consulta la <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site" target="_blank" rel="noreferrer">gu&iacute;a oficial para configurar la fuente de GitHub Pages</a> si el repositorio no muestra la opci&oacute;n esperada.</p>
+
+          <div class="final-project-showcase"><strong>Cierre &middot; un minuto por persona</strong><span>Comparte la URL publicada, la pregunta que investigaste y un hallazgo. Menciona tambi&eacute;n una limitaci&oacute;n de los datos.</span></div>
         </section>
 
         <section id="errores" class="panel">
@@ -913,7 +1231,7 @@ pip list</code></pre>
               <p>En la configuración del intérprete, agrega un intérprete Conda existente y selecciona el entorno <code>RAGLAB</code>. Si aún no existe, créalo desde la carpeta raíz con <code>conda env create -f RAGLAB.yml</code> y luego actívalo con <code>conda activate RAGLAB</code>.</p>
             </article>
             <article>
-              <span class="timeline-label">Kiro · Paso 7</span>
+              <span class="timeline-label">Kiro · Paso 8</span>
               <h4>Kiro no aparece en PyCharm</h4>
               <p>Confirma que <strong>Kiro with GUI</strong> figure como instalado en <strong>Settings → Plugins → Installed</strong>. Reinicia PyCharm y comprueba que el comando del CLI esté configurado en <strong>Manage → Settings</strong>.</p>
             </article>
@@ -937,14 +1255,15 @@ pip list</code></pre>
 
         <section id="checklist" class="panel">
           <p class="section-kicker">Cierre</p>
-          <h3>Checklist: del espacio de trabajo al cambio compartido</h3>
+          <h3>Checklist: del espacio de trabajo al proyecto publicado</h3>
           <p class="support-intro">El módulo queda completo cuando puedes recorrer y explicar este flujo:</p>
           <ol class="closing-checklist">
             <li><span>01</span><div><strong>Proyecto listo</strong><p>Git configurado; fork de <code>RAGLAB</code> creado en tu cuenta y abierto en PyCharm desde la rama <code>DEV</code>.</p></div></li>
             <li><span>02</span><div><strong>Entorno preparado</strong><p>Miniconda instalado, entorno <code>RAGLAB</code> creado desde <code>RAGLAB.yml</code> y seleccionado como intérprete de PyCharm.</p></div></li>
             <li><span>03</span><div><strong>Python comprobado</strong><p>Ejecutaste los cuatro ejercicios: hola Python, variables y tipos, condicionales y bucles, y funciones.</p></div></li>
-            <li><span>04</span><div><strong>Cambio comprendido y validado</strong><p>Con Kiro, planteaste una mejora concreta, revisaste el plan y el diff, ejecutaste el script y comprobaste los resultados esperados.</p></div></li>
+            <li><span>04</span><div><strong>Cambio comprendido y validado</strong><p>Con un agente, planteaste una mejora concreta, revisaste el plan y el diff, ejecutaste el script y comprobaste los resultados esperados.</p></div></li>
             <li><span>05</span><div><strong>Trabajo guardado y compartido</strong><p>Creaste un commit que puedes explicar y lo subiste a tu fork en GitHub con Push desde <code>DEV</code>.</p></div></li>
+            <li><span>06</span><div><strong>Proyecto final publicado</strong><p>Analizaste datos p&uacute;blicos, creaste un tablero HTML con su fuente y limitaciones, lo publicaste en GitHub Pages y compartiste un hallazgo.</p></div></li>
           </ol>
           <div class="closing-note"><strong>Recuerda:</strong> el agente propone el cambio; tú verificas que cumple el requerimiento antes de guardarlo y compartirlo.</div>
         </section>

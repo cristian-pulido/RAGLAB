@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Ubica la sección API keys de OpenRouter</title>
+  <desc id="desc">Vista ilustrativa del panel de OpenRouter: dentro de Workspace, selecciona API keys y luego New key.</desc>
+  <rect width="1200" height="640" rx="24" fill="#080c0d"/>
+  <rect x="0" y="0" width="1200" height="66" rx="24" fill="#111719"/>
+  <rect x="0" y="42" width="1200" height="24" fill="#111719"/>
+  <circle cx="34" cy="33" r="8" fill="#d6ff00"/>
+  <text x="58" y="42" fill="#f5f7f7" font-family="Arial,sans-serif" font-size="25" font-weight="700">OpenRouter</text>
+  <text x="940" y="41" fill="#aeb8b8" font-family="Arial,sans-serif" font-size="17">Models　Docs　Chat　Dashboard</text>
+  <rect x="20" y="84" width="258" height="536" rx="16" fill="#0d1213" stroke="#273031"/>
+  <text x="48" y="128" fill="#8f9a9b" font-family="Arial,sans-serif" font-size="16" font-weight="700">WORKSPACE</text>
+  <g fill="#b8c0c1" font-family="Arial,sans-serif" font-size="20">
+    <text x="62" y="183">Activity</text><text x="62" y="237">Logs</text>
+    <text x="62" y="291">API keys</text><text x="62" y="345">Files</text>
+    <text x="62" y="399">Guardrails</text><text x="62" y="453">BYOK</text>
+  </g>
+  <rect x="38" y="258" width="222" height="48" rx="12" fill="#202b10" stroke="#d6ff00" stroke-width="2"/>
+  <text x="62" y="291" fill="#d6ff00" font-family="Arial,sans-serif" font-size="20" font-weight="700">API keys</text>
+  <rect x="306" y="84" width="874" height="536" rx="16" fill="#0b1011" stroke="#273031"/>
+  <text x="348" y="146" fill="#f4f7f7" font-family="Arial,sans-serif" font-size="34" font-weight="700">API keys</text>
+  <text x="348" y="181" fill="#aeb8b8" font-family="Arial,sans-serif" font-size="18">Create and manage your API keys.</text>
+  <rect x="970" y="108" width="168" height="50" rx="12" fill="#d6ff00"/>
+  <text x="1000" y="140" fill="#111719" font-family="Arial,sans-serif" font-size="19" font-weight="700">＋ New key</text>
+  <rect x="340" y="220" width="806" height="350" rx="14" fill="#080c0d" stroke="#222b2c"/>
+  <text x="743" y="385" text-anchor="middle" fill="#f3f6f6" font-family="Arial,sans-serif" font-size="24" font-weight="700">Crea tu primera API key</text>
+  <text x="743" y="421" text-anchor="middle" fill="#aeb8b8" font-family="Arial,sans-serif" font-size="18">Después podrás usarla en una solicitud a un modelo.</text>
+  <path d="M278 284h40" stroke="#d6ff00" stroke-width="4"/><path d="m308 274 12 10-12 10" fill="none" stroke="#d6ff00" stroke-width="4"/>
+</svg>

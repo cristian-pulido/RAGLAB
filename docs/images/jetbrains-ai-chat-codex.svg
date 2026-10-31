@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250" role="img" aria-labelledby="title desc">
+  <title id="title">Iniciar una conversaci&#243;n con Codex</title>
+  <desc id="desc">AI Chat con Codex seleccionado y un mensaje para iniciar la sesi&#243;n.</desc>
+  <rect width="520" height="250" rx="14" fill="#fff" stroke="#d9dde4"/>
+  <rect width="520" height="43" rx="14" fill="#f8f9fb"/>
+  <path d="M0 31v12h520V31" fill="#f8f9fb"/>
+  <g font-family="Arial, sans-serif" fill="#293241">
+    <text x="16" y="27" font-size="13">AI Chat</text>
+    <path d="M479 16h16m-16 6h16m-16 6h10" stroke="#7b8491" stroke-width="1.5"/>
+    <text x="20" y="73" font-size="13" fill="#687386">Chat History</text>
+    <path d="m98 68 5 5 5-5" fill="none" stroke="#687386" stroke-width="1.5"/>
+    <circle cx="26" cy="117" r="9" fill="#f0f1f4" stroke="#b9c0cc"/>
+    <path d="M21 117h10m-5-5v10" stroke="#667085" stroke-width="1.5"/>
+    <text x="49" y="123" font-size="16" font-weight="700">Codex</text>
+    <text x="20" y="163" font-size="14" fill="#727b89">Start the session by sending a message</text>
+    <rect x="18" y="188" width="484" height="44" rx="10" fill="#fff" stroke="#d5dae2"/>
+    <text x="32" y="215" font-size="13" fill="#9aa2af">Ask Codex to work on your project...</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <circle cx="120" cy="116" r="15" fill="#f36f3d" stroke="#fff" stroke-width="3"/><text x="120" y="121" fill="#fff">1</text>
+    <circle cx="487" cy="187" r="15" fill="#f36f3d" stroke="#fff" stroke-width="3"/><text x="487" y="192" fill="#fff">2</text>
+  </g>
+</svg>

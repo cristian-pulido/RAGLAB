@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="330" viewBox="0 0 560 330" role="img" aria-labelledby="title desc">
+  <title id="title">Dónde configurar la ruta de Kiro CLI en PyCharm</title>
+  <desc id="desc">Interfaz de Kiro con Manage, Settings y el campo kiro-cli Path señalados en orden.</desc>
+  <rect width="560" height="330" rx="12" fill="#fff" stroke="#d7dbe2"/>
+  <rect width="560" height="50" rx="12" fill="#f4f5f7"/>
+  <path d="M0 38h560v12H0z" fill="#f4f5f7"/>
+  <g font-family="Arial, sans-serif" fill="#253041">
+    <text x="18" y="31" font-size="16">Kiro</text>
+    <text x="87" y="31" font-size="16">Chat</text>
+    <rect x="142" y="7" width="82" height="36" rx="7" fill="#eaf1ff" stroke="#94b7ff"/>
+    <text x="155" y="31" font-size="16">Manage</text>
+    <rect x="0" y="50" width="50" height="280" fill="#f8f9fb"/>
+    <path d="M50 50v280" stroke="#e1e4e9"/>
+    <circle cx="24" cy="78" r="8" fill="none" stroke="#687386" stroke-width="2"/>
+    <circle cx="24" cy="78" r="3" fill="#687386"/>
+    <path d="M17 126h14M24 119v14" stroke="#687386" stroke-width="2"/>
+    <circle cx="24" cy="126" r="8" fill="none" stroke="#687386" stroke-width="1.5"/>
+    <path d="M18 171l6-10 6 10z" fill="#f57426"/>
+    <path d="M17 210h14M24 204v12" stroke="#687386" stroke-width="2"/>
+    <text x="78" y="89" font-size="22" font-weight="700">Settings</text>
+    <rect x="77" y="111" width="465" height="162" fill="#fbfbfc" stroke="#d7dbe2"/>
+    <rect x="78" y="112" width="463" height="42" fill="#f7f8fa"/>
+    <path d="M78 154h463" stroke="#d7dbe2"/>
+    <circle cx="98" cy="133" r="8" fill="none" stroke="#7b8491" stroke-width="1.5"/>
+    <path d="M98 122v4m0 14v4m-11-11h4m14 0h4m-19-8 3 3m11 11 3 3m0-17-3 3m-11 11-3 3" stroke="#7b8491" stroke-width="1.2"/>
+    <text x="116" y="139" font-size="15" font-weight="700">kiro-cli Path</text>
+    <rect x="96" y="171" width="446" height="54" rx="5" fill="#fff" stroke="#c8ced8"/>
+    <text x="108" y="204" font-size="15">kiro-cli</text>
+    <path d="M97 244l6-11 6 11z" fill="#f5a623"/>
+    <text x="116" y="243" font-size="12" fill="#344054">kiro-cli not found</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <circle cx="232" cy="24" r="15" fill="#f36f3d" stroke="#fff" stroke-width="3"/><text x="232" y="29" fill="#fff">1</text>
+    <circle cx="68" cy="89" r="15" fill="#f36f3d" stroke="#fff" stroke-width="3"/><text x="68" y="94" fill="#fff">2</text>
+    <circle cx="531" cy="164" r="15" fill="#f36f3d" stroke="#fff" stroke-width="3"/><text x="531" y="169" fill="#fff">3</text>
+  </g>
+</svg>

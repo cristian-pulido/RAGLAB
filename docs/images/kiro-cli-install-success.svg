@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="624" height="330" viewBox="0 0 624 330" role="img" aria-labelledby="title desc">
+  <title id="title">Kiro CLI instalado correctamente</title>
+  <desc id="desc">Salida de PowerShell que confirma la instalaci&#243;n de Kiro CLI 2.36.0.</desc>
+  <rect width="624" height="330" rx="4" fill="#0c0c0c"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="600">
+    <text x="4" y="22" fill="#d4d4d4">Windows PowerShell</text>
+    <text x="4" y="40" fill="#d4d4d4">Copyright (C) Microsoft Corporation. All rights reserved.</text>
+    <text x="4" y="76" fill="#d4d4d4">PS C:\WINDOWS\system32&gt; irm 'https://cli.kiro.dev/install.ps1' | iex</text>
+    <text x="4" y="105" fill="#ff00c8">Kiro CLI Installer</text>
+    <text x="4" y="123" fill="#d4d4d4">==================</text>
+    <text x="22" y="153" fill="#4de8d1">Fetching latest version...</text>
+    <text x="22" y="171" fill="#00df00">  Latest version: 2.36.0</text>
+    <text x="22" y="189" fill="#4de8d1">  Downloading installer (271.5 MB)...</text>
+    <text x="22" y="207" fill="#00df00">  Downloaded</text>
+    <text x="22" y="225" fill="#4de8d1">  Verifying checksum...</text>
+    <text x="22" y="243" fill="#00df00">  Checksum verified</text>
+    <text x="22" y="261" fill="#4de8d1">  Installing Kiro CLI...</text>
+    <text x="22" y="279" fill="#00df00">  Installed successfully</text>
+    <text x="22" y="297" fill="#00df00">Kiro CLI 2.36.0 installed to C:\Program Files\Kiro-CLI</text>
+    <text x="22" y="315" fill="#f7e96b">Open a new terminal and run: kiro-cli</text>
+  </g>
+</svg>
