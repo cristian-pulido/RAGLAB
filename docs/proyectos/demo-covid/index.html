@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COVID-19 en Boyacá | Tablero</title>
+  <style>
+    :root { color-scheme: light; --ink:#1d2935; --muted:#596875; --accent:#246b73; --paper:#f4f7f5; }
+    * { box-sizing:border-box; } body { margin:0; font:16px/1.6 system-ui,sans-serif; color:var(--ink); background:var(--paper); }
+    main { width:min(1100px, calc(100% - 32px)); margin:40px auto; } header, section { background:#fff; border:1px solid #dce5e1; border-radius:16px; padding:24px; margin-bottom:20px; }
+    h1,h2 { line-height:1.2; } h1 { margin:4px 0; } h2 { font-size:1.25rem; } .muted { color:var(--muted); }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:14px; } .card { padding:18px; border-radius:12px; background:#eef5f2; } .value { display:block; font-size:1.8rem; font-weight:750; color:var(--accent); }
+    figure { margin:0; } figure img { display:block; width:100%; height:auto; }
+    .chart-link { display:block; border-radius:10px; cursor:zoom-in; }
+    .chart-link:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
+    figcaption { color:var(--muted); font-size:.92rem; margin-top:8px; }
+    .charts { display:grid; grid-template-columns:1fr; gap:18px; } table { border-collapse:collapse; width:100%; } th,td { text-align:left; padding:8px 10px; border-bottom:1px solid #e1e7e4; } th { background:#eef5f2; } .table-wrap { max-height:420px; overflow:auto; }
+    @media(min-width:850px) { .charts { grid-template-columns:1fr 1fr; } }
+  </style>
+</head>
+<body><main>
+  <header>
+    <p class="muted">Análisis reproducible de casos positivos</p>
+    <h1>COVID-19 en Boyaca</h1>
+    <p>Departamento filtrado: <strong>BOYACA</strong> · Periodo de fecha de reporte: <strong>2020-03-25 a 2024-01-17</strong></p>
+    <p>Fuente: <a href="https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia-/gt2j-8ykr/about_data" rel="noopener noreferrer">Casos positivos de COVID-19 en Colombia — datos.gov.co</a></p>
+  </header>
+  <section><h2>Indicadores</h2><div class="cards">
+    <div class="card"><span class="muted">Casos en el periodo</span><span class="value">131.133</span><span class="muted">IDs de caso únicos con fecha válida</span></div>
+    <div class="card"><span class="muted">Mes con más reportes</span><span class="value">Junio de 2021</span><span class="muted">22.400 casos reportados</span></div>
+  </div></section>
+  <section><h2>Hallazgo</h2><p>El máximo mensual de la serie observada ocurrió en <strong>Junio de 2021</strong>, con <strong>22.400</strong> casos identificados por ID. La serie usa la fecha de reporte web y completa con cero los meses intermedios sin registros.</p></section>
+  <section><h2>Gráficos</h2><div class="charts">
+    <figure><a class="chart-link" href="graficos/casos_mensuales.png" target="_blank" rel="noopener" aria-label="Abrir el gráfico mensual en tamaño completo"><img src="graficos/casos_mensuales.png" alt="Gráfico de barras de casos reportados por mes en Boyacá"></a><figcaption>Haz clic en el gráfico para abrirlo en tamaño completo. Conteo mensual según fecha reporte web; cada caso se cuenta una vez por ID.</figcaption></figure>
+    <figure><a class="chart-link" href="graficos/casos_por_municipio.png" target="_blank" rel="noopener" aria-label="Abrir el gráfico por municipio en tamaño completo"><img src="graficos/casos_por_municipio.png" alt="Gráfico de barras de los diez municipios con más casos en Boyacá"></a><figcaption>Haz clic en el gráfico para abrirlo en tamaño completo. Diez municipios con más casos registrados durante el periodo completo.</figcaption></figure>
+  </div></section>
+  <section><h2>Casos por mes</h2><div class="table-wrap"><table><thead><tr><th>Mes</th><th>Casos (ID únicos)</th></tr></thead><tbody><tr><td>2020-03</td><td>6</td></tr>
+<tr><td>2020-04</td><td>33</td></tr>
+<tr><td>2020-05</td><td>172</td></tr>
+<tr><td>2020-06</td><td>157</td></tr>
+<tr><td>2020-07</td><td>650</td></tr>
+<tr><td>2020-08</td><td>2.791</td></tr>
+<tr><td>2020-09</td><td>3.531</td></tr>
+<tr><td>2020-10</td><td>7.065</td></tr>
+<tr><td>2020-11</td><td>7.267</td></tr>
+<tr><td>2020-12</td><td>6.871</td></tr>
+<tr><td>2021-01</td><td>13.067</td></tr>
+<tr><td>2021-02</td><td>4.466</td></tr>
+<tr><td>2021-03</td><td>2.002</td></tr>
+<tr><td>2021-04</td><td>5.449</td></tr>
+<tr><td>2021-05</td><td>13.504</td></tr>
+<tr><td>2021-06</td><td>22.400</td></tr>
+<tr><td>2021-07</td><td>13.083</td></tr>
+<tr><td>2021-08</td><td>2.126</td></tr>
+<tr><td>2021-09</td><td>555</td></tr>
+<tr><td>2021-10</td><td>436</td></tr>
+<tr><td>2021-11</td><td>698</td></tr>
+<tr><td>2021-12</td><td>734</td></tr>
+<tr><td>2022-01</td><td>13.587</td></tr>
+<tr><td>2022-02</td><td>3.787</td></tr>
+<tr><td>2022-03</td><td>714</td></tr>
+<tr><td>2022-04</td><td>96</td></tr>
+<tr><td>2022-05</td><td>107</td></tr>
+<tr><td>2022-06</td><td>628</td></tr>
+<tr><td>2022-07</td><td>2.273</td></tr>
+<tr><td>2022-08</td><td>910</td></tr>
+<tr><td>2022-09</td><td>126</td></tr>
+<tr><td>2022-10</td><td>21</td></tr>
+<tr><td>2022-11</td><td>45</td></tr>
+<tr><td>2022-12</td><td>543</td></tr>
+<tr><td>2023-01</td><td>295</td></tr>
+<tr><td>2023-02</td><td>59</td></tr>
+<tr><td>2023-03</td><td>59</td></tr>
+<tr><td>2023-04</td><td>48</td></tr>
+<tr><td>2023-05</td><td>102</td></tr>
+<tr><td>2023-06</td><td>131</td></tr>
+<tr><td>2023-07</td><td>90</td></tr>
+<tr><td>2023-08</td><td>90</td></tr>
+<tr><td>2023-09</td><td>42</td></tr>
+<tr><td>2023-10</td><td>24</td></tr>
+<tr><td>2023-11</td><td>61</td></tr>
+<tr><td>2023-12</td><td>72</td></tr>
+<tr><td>2024-01</td><td>160</td></tr></tbody></table></div></section>
+  <section><h2>Limitaciones</h2><ul><li>La fecha de agrupación es «fecha reporte web»; los resultados describen fecha de reporte, no necesariamente inicio de síntomas, diagnóstico o fecha de notificación.</li>
+<li>El conteo usa identificadores únicos de caso; identificadores faltantes se excluyen. Si la fuente contiene correcciones o revisiones históricas, esta extracción no las caracteriza por separado.</li>
+<li>En Boyacá se excluyeron 0 filas con fecha de reporte no interpretable o faltante.</li>
+<li>El gráfico municipal muestra solo los 10 municipios con más casos; los valores no son tasas poblacionales y no permiten inferir riesgo individual.</li>
+<li>El CSV local es una extracción; los resultados pueden no coincidir con versiones posteriores publicadas en la fuente oficial.</li></ul><p class="muted">Conteos descriptivos: no representan tasas poblacionales ni estimaciones de incidencia.</p></section>
+</main></body></html>
